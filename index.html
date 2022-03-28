@@ -1,28 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./fonts/lato/fonts.css">
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./fonts/lato/fonts.css" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
     <title>Document</title>
-</head>
-<body>
-<header>
-   <h1 class="header--logo">SINGOLO <span class="header--logo--icon">*</span></h1>
-   <nav class="header--navigation">
-       <ul class="navigation--list">
-           <li class="navigation--item">HOME </li>
-           <li class="navigation--item">SERVICES </li>
-           <li class="navigation--item">PORTFOLIO </li>
-           <li class="navigation--item">ABOUT </li>
-           <li class="navigation--item">CONTACT</li>
-       </ul>
-   </nav>
+  </head>
+  <body>
+    <header>
 
-</header>
-    <script src="./script.js"></script>
-</body>
+   <div class="header-wrapper-mobile">
+     <div class="burger-menu ">
+      <div class="burger-icon " >
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <h1 class="header--logo mobile">
+        SINGOLO <span class="header--logo__star">*</span>
+      </h1>
+      <div class="burger-menu-content">
+        <h1 class="header--logo">
+          SINGOLO <span class="header--logo__star">*</span>
+        </h1>
+        <nav class="header--navigation">
+          <ul class="navigation--list">
+            <li class="navigation--item">HOME</li>
+            <li class="navigation--item" ><a href="#services">SERVICES</a></li>
+            <li class="navigation--item" ><a href="#portfolio">PORTFOLIO</a></li>
+            <li class="navigation--item"><a href="#about">ABOUT</a></li>
+            <li class="navigation--item">CONTACT</li>
+          </ul>
+        </nav>
+      </div>
+     </div>
+     
+   </div>
+
+
+      <div class="header--wrapper">
+        
+        <h1 class="header--logo">
+          SINGOLO <span class="header--logo__star">*</span>
+        </h1>
+
+        <nav class="header--navigation">
+          <ul class="navigation--list">
+            <li class="navigation--item">HOME</li>
+            <li class="navigation--item" ><a href="#services">SERVICES</a></li>
+            <li class="navigation--item" ><a href="#portfolio">PORTFOLIO</a></li>
+            <li class="navigation--item"><a href="#about">ABOUT</a></li>
+            <li class="navigation--item">CONTACT</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="wrapperSlides">
+        <div class="arrows-wrapper">
+          <img
+          src="./img/arrow-left.svg"
+          alt="#"
+          class="arrow-left arrow"
+                />
+                <img
+                src="./img/arrow-right.svg"
+                alt="#"
+                class="arrow-right arrow"/>
+        </div>
+        <div class="slider orange active" >
+          <div class="slider--content">
+            <div class="orange--content--wrapper">
+              <img
+                class="orange-content--vertical"
+                src="./img/phone-vertical.png"
+                alt="#"
+              />
+              <img
+                class="orange-content--horixont"
+                src="./img/phone-horizontal.png"
+                alt="#"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="slider blue ">
+          <div class="slider--content">
+            <div class="blue--content--wrapper">
+              <img
+                src="./img/left.png"
+                alt="#"
+                class="blue-content--vertical blue-left"
+              />
+              <img
+                src="./img/slider-content.png"
+                alt="#"
+                class="blue-content--horizontal"
+              />
+              <img
+                src="./img/right.png"
+                alt="#"
+                class="blue-content--vertical blue-right"
+              />
+            </div>
+             </div>
+        </div>
+        <div class="slider yellow ">
+          <div class="slider--content">
+            <div class="blue--content--wrapper">
+              <img
+                src="./img/left.png"
+                alt="#"
+                class="blue-content--vertical blue-left"
+              />
+              <img
+                src="./img/slider-content.png"
+                alt="#"
+                class="blue-content--horizontal"
+              />
+              <img
+                src="./img/right.png"
+                alt="#"
+                class="blue-content--vertical blue-right"
+              />
+            </div>
+          </div>
+        </div>          
+              <div class="dots-wrapper">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+      </section>
+
+      <section class="services">
+        <a name="services"></a>
+        <div class="services--wrapper">
+          <h2 class="services--title">Our Services</h2>
+
+          <div class="services--subtitle">
+            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
+            Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget
+            lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
+            tortor mauris condimentum nibh.
+          </div>
+
+          <div class="servies--list">
+            <div class="list-item--wrapper">
+              <img
+                src="./img/services-item-1.svg"
+                alt=""
+                class="lits-item--icon"
+              />
+
+              <div class="list-item--text">
+                <div class="list-item--title">Custom Design</div>
+
+                <div class="list-item--subtitle">
+                  Curabitur vestibulum eget mauris quis laoreet. Phasellus in
+                  quam laoreet, viverra lacus ut, ultrices velit.
+                </div>
+              </div>
+            </div>
+
+            <div class="list-item--wrapper">
+              <img
+                src="./img/services-item-1.svg"
+                alt=""
+                class="lits-item--icon"
+              />
+
+              <div class="list-item--text">
+                <div class="list-item--title">Custom Design</div>
+
+                <div class="list-item--subtitle">
+                  Curabitur vestibulum eget mauris quis laoreet. Phasellus in
+                  quam laoreet, viverra lacus ut, ultrices velit.
+                </div>
+              </div>
+            </div>
+
+            <div class="list-item--wrapper">
+              <img
+                src="./img/services-item-1.svg"
+                alt=""
+                class="lits-item--icon"
+              />
+
+              <div class="list-item--text">
+                <div class="list-item--title">Custom Design</div>
+
+                <div class="list-item--subtitle">
+                  Curabitur vestibulum eget mauris quis laoreet. Phasellus in
+                  quam laoreet, viverra lacus ut, ultrices velit.
+                </div>
+              </div>
+            </div>
+
+            <div class="list-item--wrapper">
+              <img
+                src="./img/services-item-1.svg"
+                alt=""
+                class="lits-item--icon"
+              />
+
+              <div class="list-item--text">
+                <div class="list-item--title">Custom Design</div>
+
+                <div class="list-item--subtitle">
+                  Curabitur vestibulum eget mauris quis laoreet. Phasellus in
+                  quam laoreet, viverra lacus ut, ultrices velit.
+                </div>
+              </div>
+            </div>
+
+            <div class="list-item--wrapper">
+              <img
+                src="./img/services-item-1.svg"
+                alt=""
+                class="lits-item--icon"
+              />
+
+              <div class="list-item--text">
+                <div class="list-item--title">Custom Design</div>
+
+                <div class="list-item--subtitle">
+                  Curabitur vestibulum eget mauris quis laoreet. Phasellus in
+                  quam laoreet, viverra lacus ut, ultrices velit.
+                </div>
+              </div>
+            </div>
+
+            <div class="list-item--wrapper">
+              <img
+                src="./img/services-item-1.svg"
+                alt=""
+                class="lits-item--icon"
+              />
+
+              <div class="list-item--text">
+                <div class="list-item--title">Custom Design</div>
+
+                <div class="list-item--subtitle">
+                  Curabitur vestibulum eget mauris quis laoreet. Phasellus in
+                  quam laoreet, viverra lacus ut, ultrices velit.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio">
+        <a name="portfolio"></a>
+        <div class="portfolio-content">
+          <h1 class="portfolio-logo">Portfolio</h1>
+          <div class="description">
+            Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
+            eget lacinia odio sem nec elit.
+          </div>
+          <div class="buttons">
+            <button class="btn">All</button>
+            <button class="btn">Web Design</button>
+            <button class="btn">Graphic Design</button>
+            <button class="btn">Artwork</button>
+          </div>
+          <div class="images">
+            <img class="img" src="./img/portfolio-1.png" alt="#"></img>
+            <img class="img" src="./img/portfolio-2.png" alt="#"></img>
+            <img class="img" src="./img/portfolio-3.png" alt="#"></img>
+            <img class="img" src="./img/portfolio-4.png" alt="#"></img>
+            <img class="img" src="./img/portfolio-5.png" alt="#"></img>
+            <img class="img" src="./img/portfolio-6.png" alt="#"></img>
+            <img class="img" src="./img/portfolio-7.png" alt="#"></img>
+            <img class="img" src="./img/portfolio-8.png" alt="#"></img>
+            <img class="img" src="./img/portfolio-9.png" alt="#"></img>
+            <img class="img" src="./img/portfolio-10.png" alt="#"></img>
+            <img class="img" src="./img/portfolio-11.png" alt="#"></img>
+            <img class="img" src="./img/portfolio-12.png" alt="#"></img>
+          </div>
+        </div>
+      </section>
+      <footer>
+          <div class="footer-content">
+              <div class="footer-text-content">© Copyright 2013 </div>
+              <div class="footer-icons">
+                  <img src="./img/ico-facebook--nocircle.png" alt="#" class="footer-icon-img">
+                  <img src="./img/ico-google-plus--nocircle.png" alt="#" class="footer-icon-img">
+                  <img src="./img/ico-twitter--nocircle.png" alt="#" class="footer-icon-img">
+                  <img src="./img/ico-linkedin--nocircle.png" alt="#" class="footer-icon-img">
+              </div>
+          </div>
+      </footer>
+    </main>
+  </body>
+
+  <script src="./script.js"></script>
 </html>
